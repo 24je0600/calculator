@@ -74,7 +74,7 @@ int main() {
             case 'i':
                 printf("Enter an integer: ");
                 scanf("%d", &a);
-                printf("%d\n", 1/a);
+                printf("%f\n",(float) 1/a);
                 break;
             default:
                 printf("Invalid operation. Please try again.\n");
